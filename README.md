@@ -7,9 +7,8 @@
 
 ### Links and Resources
 * [repo](https://github.com/hingham/09-socket.io-ns-hi)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [![Build Status](https://www.travis-ci.com/hingham/09-socket.io-ns.svg?branch=master)](https://www.travis-ci.com/hingham/09-socket.io-ns)
+* [travis]https://www.travis-ci.com/
 
 ### Modules
 #### `helper.js` --contains helper functions used in the server file
