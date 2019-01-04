@@ -6,7 +6,7 @@
 ### Author: Hannah Ingham
 
 ### Links and Resources
-* [repo](http://xyz.com)
+* [repo](https://github.com/hingham/09-socket.io-ns-hi)
 * [travis](http://xyz.com)
 * [back-end](http://xyz.com)
 * [front-end](http://xyz.com)
