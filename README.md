@@ -1,9 +1,9 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Project Name: lab 09 Socket.io 
 
-### Author: Student/Group Name
+### Author: Hannah Ingham
 
 ### Links and Resources
 * [repo](http://xyz.com)
@@ -12,31 +12,25 @@
 * [front-end](http://xyz.com)
 
 ### Modules
-#### `modulename.js`
-##### Exported Values and Methods
+#### `helper.js` --contains helper functions used in the server file
 
-###### `foo(thing) -> string`
-Usage Notes or examples
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### Usage Notes
+* start the index.js file in terminal
+* start the app.js file in terminal
+* open the react app in the browser: https://pmww0ww42q.codesandbox.io/
 
 ### Setup
 #### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+* npm init
+* npm i socket.io socket.io-client estlint 
+* `PORT` - 3000
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
 
 #### Tests
-* How do you run tests?
-* What assertions were made?
+* Run tests using ES lint
+* Asserts that the functions in helper.js do what they are intended to do
+    * * chgLetNum should convert a letter to a number and vise versa
+    * * letterChange should just increment one to the number given, or reset to the start if the number is equal to the end value 
 * What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
+    * * assertions could be made to make sure the socket is emitting the right thing
